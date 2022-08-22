@@ -15,8 +15,14 @@ function Card() {
         </div>
         <div className="about_Section">
           <button className="btn">
-            <MdEmail className="email_icon" />
-            Email
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://mail.google.com/mail/?view=cm&fs=1&to=vineygautam.23@gmail.com"
+            >
+              <MdEmail className="email_icon" />
+              Email
+            </a>
           </button>
           <span className="about_title">About</span>
           <p>
