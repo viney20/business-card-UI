@@ -1,0 +1,10 @@
+.footer_container {
+  background-color: #161619 !important;
+  width: 100%;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 70px;
+}

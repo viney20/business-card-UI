@@ -1,0 +1,68 @@
+.container {
+  margin: 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-self: center;
+  max-width: 30rem;
+  color: #ffffff;
+  border-radius: 37px;
+}
+.container > img {
+  max-width: inherit;
+  border-top-left-radius: inherit;
+  border-top-right-radius: inherit;
+}
+.container > div {
+  background-color: #1a1b21;
+}
+.tittle_container {
+  display: flex;
+  align-items: center;
+  justify-self: center;
+  flex-direction: column;
+  padding: 2rem;
+  white-space: 1rem;
+}
+.about_Section {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 1rem;
+  margin: 1px;
+}
+.container > button {
+  width: 80%;
+}
+.name {
+  font-size: 24px;
+  font-weight: 600;
+  padding-bottom: 10px;
+}
+.degination {
+  color: #f3bf99;
+  padding-bottom: 5px;
+}
+.about_title {
+  font-size: 20px;
+  font-weight: 600;
+}
+.btn {
+  background-color: #ffffff;
+  color: #374151;
+  font-size: 20px;
+  align-self: center;
+  width: 100%;
+  font-weight: 600;
+  height: 50px;
+  border-radius: 25px;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.email_icon {
+  width: 30px;
+  height: 30px;
+  padding-right: 5px;
+}
