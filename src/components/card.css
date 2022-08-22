@@ -8,6 +8,9 @@
   color: #ffffff;
   border-radius: 37px;
 }
+.achortag_button {
+  width: 100%;
+}
 .container > img {
   width: 100%;
   border-top-left-radius: inherit;

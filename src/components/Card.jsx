@@ -14,16 +14,18 @@ function Card() {
           <span>www.viney_gautam.com</span>
         </div>
         <div className="about_Section">
-          <button className="btn">
-            <a
-              target="_blank"
-              rel="noopener noreferrer"
-              href="https://mail.google.com/mail/?view=cm&fs=1&to=vineygautam.23@gmail.com"
-            >
+          <a
+            className="achortag_button"
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://mail.google.com/mail/?view=cm&fs=1&to=vineygautam.23@gmail.com"
+          >
+            <button className="btn">
               <MdEmail className="email_icon" />
               Email
-            </a>
-          </button>
+            </button>
+          </a>
+
           <span className="about_title">About</span>
           <p>
             I am a frontend developer with a particular interest in making
@@ -33,8 +35,8 @@ function Card() {
           </p>
           <span className="about_title">Interests</span>
           <p>
-            Food expert. Music scholar. Reader. Internet fanatic. Bacon buff.
-            Entrepreneur. Travel geek. Pop culture ninja. Coffee fanatic.
+            Food expert. Music scholar. Reader. Internet fanatic. Entrepreneur.
+            Travel geek. Pop culture ninja. Coffee fanatic.
           </p>
         </div>
       </div>
